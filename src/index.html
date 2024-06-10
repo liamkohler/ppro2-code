@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="header">
+    <div class="header" id="top">
       <div class="menu">
         <p>MENU</p>
         <div class="menu-panier">
@@ -31,8 +31,90 @@
         </div>
       </div>
     </div>
-    <main></main>
-    <footer></footer>
+    <main>
+      <div class="brasserie">
+        <img src="img/houblon.png" alt="houblon" />
+        <h2>Brasserie</h2>
+        <p>
+          Située à Estavayer-le-Lac en Suisse, la Brasserie Licorne produit des
+          bières sans alcool de qualité supérieure. Nos bières sont brassées
+          avec des ingrédients bio et locaux. Offrant une gamme de saveurs
+          authentiques, des blondes légères, des brunes corsées et mêmes des
+          bières sans gluten.
+        </p>
+        <a href="#">En savoir plus</a>
+        <img src="img/ble.png" alt="blé" />
+      </div>
+      <div class="horizontal-scroll-container">
+        <div class="horizontal-scroll-blond">
+          <div class="horizontal-scroll-circle"></div>
+          <img src="img/Blonde-trensparent.png" alt="bière blonde" />
+          <h2>Blonde</h2>
+          <a href="#">ACHAT</a>
+          <p>
+            Découvrez notre bière blonde sans alcool, biologique et locale.
+            Légère et rafraîchissante, avec des arômes floraux et des notes
+            maltées subtiles.
+          </p>
+          <p class="horizontal-scroll-prix">4,60</p>
+        </div>
+        <div class="horizontal-scroll-Brune">
+          <div class="horizontal-scroll-circle"></div>
+          <img src="img/Brune-trensparent.png" alt="bière brune" />
+          <h2>Brune</h2>
+          <a href="#">ACHAT</a>
+          <p>
+            Découvrez notre bière blonde sans alcool, biologique et locale.
+            Légère et rafraîchissante, avec des arômes floraux et des notes
+            maltées subtiles.
+          </p>
+          <p class="horizontal-scroll-prix">4,60</p>
+        </div>
+        <div class="horizontal-scroll-ipa">
+          <div class="horizontal-scroll-circle"></div>
+          <img src="img/IPA-trensparent.png" alt="bière IPA" />
+          <h2>IPA</h2>
+          <a href="#">ACHAT</a>
+          <p>
+            Découvrez notre bière blonde sans alcool, biologique et locale.
+            Légère et rafraîchissante, avec des arômes floraux et des notes
+            maltées subtiles.
+          </p>
+          <p class="horizontal-scroll-prix">4,60</p>
+        </div>
+      </div>
+      <div class="newsletter">
+        <h2>RESTEZ INFORMÉ</h2>
+        <p>
+          Abonne-toi à notre newsletter et reçois toutes les nouvelles de notre
+          brasserie. Tu bénéficieras également d'une réduction de 10% sur ton
+          prochain achat.
+        </p>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="enter your email"
+        />
+        <a class="newsletter-submit" href="#">S'ABONNER</a>
+      </div>
+    </main>
+    <footer>
+      <img src="img/Licorne-Logo.svg" alt="LIC%RNE" />
+      <div class="contact-top">
+        <a href="#">Connexion</a>
+        <a href="#">Instagra</a>
+        <a href="#">Tiktok</a>
+        <a href="#">Shop</a>
+      </div>
+      <div class="contact-right">
+        <a href="#">Licorne.brasserie@gmail.ch</a>
+        <a href="#">076 729 71 82</a>
+        <a href="#">Conditions générales de vente</a>
+        <a href="#">Politique de confidentialité</a>
+      </div>
+      <a class="back-to-top" href="#top">BACK TO TOP</a>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
