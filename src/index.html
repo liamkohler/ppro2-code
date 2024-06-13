@@ -5,32 +5,50 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="header" id="top">
-      <div class="menu">
-        <p>MENU</p>
-        <div class="menu-panier">
-          <img src="img/panier.svg" alt="panier" />
-          <p class="nbr-article">0</p>
+    <header id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <div class="menu">
+              <div class="menu-panier">
+                <img src="img/panier.svg" alt="panier" />
+                <p class="menu-nbr-article">0</p>
+              </div>
+              <div class="menu-button">
+                <a href="menu-active">MENU</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-1 offset-11">
+            <div class="menu-header">
+              <div class="langue">
+                <a href="#">FR</a>
+                <a href="#">DE</a>
+                <a href="#">EN</a>
+              </div>
+              <a href="#">CONNEXION</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="menu-header">
-        <div class="langue">
-          <a href="#">FR</a>
-          <a href="#">DE</a>
-          <a href="#">EN</a>
-        </div>
-        <a href="#">CONNEXION</a>
       </div>
       <div class="cercle">
         <h1><img src="img/Licorne-Logo.svg" alt="LIC%ORN" /></h1>
         <div class="cercle-fond"></div>
-        <div class="cercle-text">
-          SANS ALCOOL | LOCALE | AUTHANTIQUE | BIO |
-        </div>
+        <img
+          class="cercle-text"
+          src="img/cercle-text.svg"
+          alt="BIO, SANS ALCOOL, LOCALE, AUTHENTIQUE"
+        />
       </div>
-    </div>
+    </header>
     <main>
       <div class="brasserie">
         <img src="img/houblon.png" alt="houblon" />
