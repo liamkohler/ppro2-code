@@ -1,0 +1,28 @@
+.brasserie {
+  box-shadow: 0px 0px 25px 6px rgba(23, 46, 39, 0.25);
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 155%;
+    color: $shadow;
+  }
+
+  a {
+    color: #fff;
+    text-shadow: 0px 4px 0px $shadow;
+    font-family: "Archivo Black";
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+
+.brasserie-text {
+  text-align: center;
+  max-width: 48%;
+  padding: 75px 0 35px;
+}

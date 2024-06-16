@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>LIC%RNE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,58 +14,59 @@
   </head>
   <body>
     <header id="top">
-      <div class="container">
-        <div class="row">
-          <div class="col-1">
-            <div class="menu">
-              <div class="menu-panier">
-                <img src="img/panier.svg" alt="panier" />
-                <p class="menu-nbr-article">0</p>
-              </div>
-              <div class="menu-button">
-                <a href="menu-active">MENU</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-1 offset-11">
-            <div class="menu-header">
-              <div class="langue">
-                <a href="#">FR</a>
-                <a href="#">DE</a>
-                <a href="#">EN</a>
-              </div>
-              <a href="#">CONNEXION</a>
-            </div>
-          </div>
+      <div class="menu">
+        <div class="menu-panier">
+          <img src="img/panier.svg" alt="panier" />
+          <p class="menu-nbr-article">0</p>
         </div>
+        <a href="menu-active" class="menu-button">MENU</a>
       </div>
-      <div class="cercle">
-        <h1><img src="img/Licorne-Logo.svg" alt="LIC%ORN" /></h1>
-        <div class="cercle-fond"></div>
-        <img
-          class="cercle-text"
-          src="img/cercle-text.svg"
-          alt="BIO, SANS ALCOOL, LOCALE, AUTHENTIQUE"
-        />
+      <div class="menu-header">
+        <div class="menu-langue">
+          <a href="#">FR</a>
+          <a href="#">DE</a>
+          <a href="#">EN</a>
+        </div>
+        <a href="#">CONNEXION</a>
       </div>
     </header>
     <main>
+      <div class="hero">
+        <div class="cercle">
+          <h1>
+            <img src="img/Licorne-Logo.svg" alt="LIC%ORN" class="cercle-logo" />
+          </h1>
+          <img
+            class="cercle-text"
+            src="img/cercle-text.svg"
+            alt="BIO, SANS ALCOOL, LOCALE, AUTHENTIQUE"
+          />
+          <img
+            src="img/blonde-trensparent-cercle.png"
+            alt="bouteil"
+            class="cercle-bottle"
+          />
+        </div>
+      </div>
       <div class="brasserie">
-        <img src="img/houblon.png" alt="houblon" />
-        <h2>Brasserie</h2>
-        <p>
-          Située à Estavayer-le-Lac en Suisse, la Brasserie Licorne produit des
-          bières sans alcool de qualité supérieure. Nos bières sont brassées
-          avec des ingrédients bio et locaux. Offrant une gamme de saveurs
-          authentiques, des blondes légères, des brunes corsées et mêmes des
-          bières sans gluten.
-        </p>
-        <a href="#">En savoir plus</a>
-        <img src="img/ble.png" alt="blé" />
+        <img src="img/houblon.svg" alt="houblon" />
+        <div class="brasserie-text">
+          <h2>Brasserie</h2>
+          <p>
+            Située à Estavayer-le-Lac en Suisse, la Brasserie Licorne produit
+            des bières sans alcool de qualité supérieure. Nos bières sont
+            brassées avec des ingrédients bio et locaux. Offrant une gamme de
+            saveurs authentiques, des blondes légères, des brunes corsées et
+            mêmes des bières sans gluten.
+          </p>
+          <a href="#">En savoir plus</a>
+        </div>
+        <img src="img/ble.svg" alt="blé" />
       </div>
       <div class="horizontal-scroll-container">
         <div class="horizontal-scroll-blond">
           <div class="horizontal-scroll-circle"></div>
+          <p class="horizontal-scroll-prix">4,60</p>
           <img src="img/Blonde-trensparent.png" alt="bière blonde" />
           <h2>Blonde</h2>
           <a href="#">ACHAT</a>
@@ -74,10 +75,10 @@
             Légère et rafraîchissante, avec des arômes floraux et des notes
             maltées subtiles.
           </p>
-          <p class="horizontal-scroll-prix">4,60</p>
         </div>
         <div class="horizontal-scroll-Brune">
           <div class="horizontal-scroll-circle"></div>
+          <p class="horizontal-scroll-prix">4,60</p>
           <img src="img/Brune-trensparent.png" alt="bière brune" />
           <h2>Brune</h2>
           <a href="#">ACHAT</a>
@@ -86,10 +87,10 @@
             Légère et rafraîchissante, avec des arômes floraux et des notes
             maltées subtiles.
           </p>
-          <p class="horizontal-scroll-prix">4,60</p>
         </div>
         <div class="horizontal-scroll-ipa">
           <div class="horizontal-scroll-circle"></div>
+          <p class="horizontal-scroll-prix">4,60</p>
           <img src="img/IPA-trensparent.png" alt="bière IPA" />
           <h2>IPA</h2>
           <a href="#">ACHAT</a>
@@ -98,7 +99,6 @@
             Légère et rafraîchissante, avec des arômes floraux et des notes
             maltées subtiles.
           </p>
-          <p class="horizontal-scroll-prix">4,60</p>
         </div>
       </div>
       <div class="newsletter">

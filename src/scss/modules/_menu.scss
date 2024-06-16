@@ -1,0 +1,40 @@
+.menu-header {
+  color: #fff;
+  text-shadow: 4px 0px 0px var(--shadow, #172e27);
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.menu-langue {
+}
+
+.menu-panier {
+}
+
+.menu-nbr-article {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  bottom: 29px;
+  left: 18px;
+  color: $shadow;
+  text-align: center;
+  font-family: Archivo;
+  font-size: 23px;
+  background-color: #fff;
+  border-radius: 100%;
+  border: $shadow solid 1px;
+}
+
+.menu-button {
+  color: #fff;
+  text-shadow: -8px 0px 0px $shadow;
+  font-size: 80px;
+  text-decoration: none;
+  rotate: -90deg;
+  display: inline-block;
+  transform-origin: top left;
+}
+
+.menu {
+}

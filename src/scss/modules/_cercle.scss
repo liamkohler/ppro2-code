@@ -1,0 +1,51 @@
+.cercle {
+  background-color: $red;
+  width: 535px;
+  height: 535px;
+  margin: auto;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cercle-logo {
+  position: relative;
+  width: 450px;
+  transition: all 0.15s ease-in-out;
+}
+
+.cercle-bottle {
+  position: absolute;
+  scale: 0%;
+  opacity: 0%;
+  transition: all 0.15s ease-in-out;
+}
+
+.cercle-text {
+  position: absolute;
+  border-radius: 100%;
+  animation: turn 30s infinite linear;
+}
+
+@keyframes turn {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+.cercle:hover {
+  .cercle-bottle {
+    scale: 100%;
+    opacity: 100%;
+    rotate: 30deg;
+  }
+  .cercle-logo {
+    scale: 0%;
+    opacity: 0%;
+  }
+}
