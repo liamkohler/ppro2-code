@@ -29,6 +29,41 @@ body {
   line-height: 1.25;
 }
 
+footer {
+  border-radius: 50px 50px 0px 0px;
+  background: #31241c;
+  box-shadow: 0px 0px 25px 6px rgba(23, 46, 39, 0.25);
+  color: #fff;
+  padding: 70px 135px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 155%;
+  max-width: 80vh;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer img {
+  position: absolute;
+  right: 0;
+}
+
+input {
+  font-size: 26px;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+}
+
 a {
   color: inherit;
   font-family: "Archivo Black";
@@ -40,6 +75,10 @@ a {
 p {
   font-family: archivo;
   margin-bottom: 35px;
+}
+
+li {
+  list-style: none;
 }
 
 img,
@@ -57,16 +96,4 @@ h2 {
   line-height: normal;
   text-transform: uppercase;
   margin-bottom: 35px;
-}
-
-.row + .row {
-  margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
 }

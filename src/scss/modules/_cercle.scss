@@ -1,5 +1,4 @@
 .cercle {
-  background-color: $red;
   width: 535px;
   height: 535px;
   margin: auto;
@@ -7,6 +6,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cercle-blonde {
+  background-color: $red;
+}
+
+.cercle-brune {
+  background-color: $dark-blue;
+}
+
+.cercle-ipa {
+  background-color: $dark-green;
 }
 
 .cercle-logo {

@@ -1,0 +1,43 @@
+.newsletter-submit {
+  color: #fff;
+  text-shadow: 0px 4px 0px var(--shadow, #172e27);
+  -webkit-text-stroke-width: 2;
+  -webkit-text-stroke-color: var(--shadow, #172e27);
+  font-family: "Archivo Black";
+  font-size: 26px;
+  text-transform: uppercase;
+  background-color: $dark-green;
+  padding: 17px 60px;
+  border-radius: 0 50px 50px 0;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  margin: 80px 0;
+  a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Archivo;
+    font-size: 20px;
+    line-height: 252%;
+    text-decoration-line: underline;
+    -webkit-text-stroke-width: 0;
+  }
+}
+
+.contact-left {
+}
+
+.contact-right {
+}
+
+.droit {
+  font-family: Archivo;
+  font-size: 18px;
+  font-weight: 200;
+  flex-basis: 100%;
+}
