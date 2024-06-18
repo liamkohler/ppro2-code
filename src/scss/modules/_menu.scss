@@ -27,16 +27,14 @@
   align-items: center;
   justify-content: space-between;
   height: 91vh;
-  margin: 40px 0;
+  width: 0;
+  margin: 40px 130px;
   left: -80;
+  z-index: 2;
 }
 
 .menu-fill {
   height: 110px;
-}
-
-.menu-header-fill {
-  width: 210px;
 }
 
 .menu-header {
@@ -50,7 +48,7 @@
   justify-content: space-between;
   height: 91vh;
   margin: 40px 0;
-  right: -80;
+  right: -100;
   * {
     rotate: 90deg;
   }

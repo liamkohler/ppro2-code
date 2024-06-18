@@ -19,6 +19,12 @@
     text-transform: uppercase;
     text-decoration: none;
   }
+
+  a:hover {
+    color: $yellow;
+    text-shadow: none;
+    transform: translateY(4px);
+  }
 }
 
 .brasserie-text {
