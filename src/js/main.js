@@ -56,3 +56,19 @@
     }
   }
 })();
+
+// script.js
+
+document
+  .getElementById("openMenuLink")
+  .addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent the default anchor behavior
+    document.getElementById("menu-open").style.left = "0";
+  });
+
+document
+  .getElementById("closeMenuLink")
+  .addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent the default anchor behavior
+    document.getElementById("menu-open").style.left = "-2000px";
+  });
