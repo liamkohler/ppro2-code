@@ -1,6 +1,4 @@
 .cercle {
-  width: 535px;
-  height: 535px;
   margin: auto;
   border-radius: 100%;
   display: flex;
@@ -8,16 +6,72 @@
   align-items: center;
 }
 
-.cercle-blonde {
-  background-color: $red;
+.cercle-animation {
+  position: absolute;
+  border-radius: 100%;
+  animation: cercleTransition 21s infinite ease-in-out;
 }
 
-.cercle-brune {
-  background-color: $dark-blue;
-}
-
-.cercle-ipa {
-  background-color: $dark-green;
+@keyframes cercleTransition {
+  0% {
+    background-color: $red;
+    width: 535px;
+    height: 535px;
+  }
+  32% {
+    width: 535px;
+    height: 535px;
+  }
+  33% {
+    background-color: $red;
+    width: 335px;
+    height: 335px;
+  }
+  34% {
+    background-color: $dark-blue;
+    width: 2535px;
+    height: 2535px;
+  }
+  35% {
+    width: 535px;
+    height: 535px;
+  }
+  65% {
+    width: 535px;
+    height: 535px;
+  }
+  66% {
+    background-color: $dark-blue;
+    width: 335px;
+    height: 335px;
+  }
+  67% {
+    background-color: $dark-green;
+    width: 2535px;
+    height: 2535px;
+  }
+  68% {
+    width: 535px;
+    height: 535px;
+  }
+  97% {
+    width: 535px;
+    height: 535px;
+  }
+  98% {
+    width: 335px;
+    height: 335px;
+  }
+  99% {
+    background-color: $dark-green;
+    width: 2535px;
+    height: 2535px;
+  }
+  100% {
+    background-color: $red;
+    width: 535px;
+    height: 535px;
+  }
 }
 
 .cercle-logo {
@@ -28,9 +82,36 @@
 
 .cercle-bottle {
   position: absolute;
+  width: 240px;
+  height: 742px;
   scale: 0%;
   opacity: 0%;
   transition: all 0.15s ease-in-out;
+  animation: bottleChange 21s ease-in-out;
+}
+
+@keyframes bottleChange {
+  0% {
+    background-image: url(../img/blonde-trensparent-cercle.png);
+  }
+  33% {
+    background-image: url(../img/blonde-trensparent-cercle.png);
+  }
+  34% {
+    background-image: url(../img/brune-trensparent-cercle.png);
+  }
+  66% {
+    background-image: url(../img/brune-trensparent-cercle.png);
+  }
+  67% {
+    background-image: url(../img/ipa-trensparent-cercle.png);
+  }
+  98% {
+    background-image: url(../img/ipa-trensparent-cercle.png);
+  }
+  99% {
+    background-image: url(../img/blonde-trensparent-cercle.png);
+  }
 }
 
 .cercle-text {

@@ -1,11 +1,9 @@
 .horizontal-scroll-container {
   color: #fff;
-  position: relative;
+  overflow-x: hidden;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  overflow-y: hidden;
-  overflow-x: auto;
+  position: sticky;
+  top: 0;
 
   .horizontal-scroll-prix {
     margin-right: -145px;
